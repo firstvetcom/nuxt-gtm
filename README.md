@@ -21,25 +21,25 @@
 
 ## Quick Setup
 
-1. Add `@zadigetvoltaire/nuxt-gtm` dependency to your project
+1. Add `@firstvetcom/nuxt-gtm` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D @zadigetvoltaire/nuxt-gtm
+pnpm add -D @firstvetcom/nuxt-gtm
 
 # Using yarn
-yarn add --dev @zadigetvoltaire/nuxt-gtm
+yarn add --dev @firstvetcom/nuxt-gtm
 
 # Using npm
-npm install --save-dev @zadigetvoltaire/nuxt-gtm
+npm install --save-dev @firstvetcom/nuxt-gtm
 ```
 
-2. Add `@zadigetvoltaire/nuxt-gtm` to the `modules` section of `nuxt.config.ts`
+2. Add `@firstvetcom/nuxt-gtm` to the `modules` section of `nuxt.config.ts`
 
 ```ts
 export default defineNuxtConfig({
   modules: [
-    '@zadigetvoltaire/nuxt-gtm'
+    '@firstvetcom/nuxt-gtm'
   ],
 })
 ```
@@ -315,14 +315,14 @@ pnpm release
 © Zadig&Voltaire is a registered trademark of ZV FRANCE
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@zadigetvoltaire/nuxt-gtm/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@zadigetvoltaire/nuxt-gtm
+[npm-version-src]: https://img.shields.io/npm/v/@firstvetcom/nuxt-gtm/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@firstvetcom/nuxt-gtm
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/@zadigetvoltaire/nuxt-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/@zadigetvoltaire/nuxt-gtm
+[npm-downloads-src]: https://img.shields.io/npm/dm/@firstvetcom/nuxt-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/@firstvetcom/nuxt-gtm
 
-[license-src]: https://img.shields.io/npm/l/@zadigetvoltaire/nuxt-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/@zadigetvoltaire/nuxt-gtm
+[license-src]: https://img.shields.io/npm/l/@firstvetcom/nuxt-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/@firstvetcom/nuxt-gtm
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

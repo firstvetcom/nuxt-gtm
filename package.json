@@ -1,18 +1,16 @@
 {
-  "name": "@zadigetvoltaire/nuxt-gtm",
-  "version": "0.0.14",
+  "name": "@firstvetcom/nuxt-gtm",
+  "version": "1.0.1",
   "description": "Nuxt module to add Google Tag Manager",
   "license": "MIT",
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/types.d.ts",
       "import": "./dist/module.mjs",
-      "require": "./dist/module.cjs"
+      "require": "./dist/module.mjs"
     }
   },
-  "main": "./dist/module.cjs",
-  "types": "./dist/types.d.ts",
+  "main": "./dist/module.mjs",
   "files": [
     "dist"
   ],
@@ -30,39 +28,39 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@gtm-support/vue-gtm": "^2.0.0",
-    "@nuxt/kit": "^3.5.1",
-    "defu": "^6.1.2",
-    "sirv": "^2.0.3"
+    "@gtm-support/vue-gtm": "^2.2.0",
+    "@nuxt/kit": "^4.2.2",
+    "defu": "^6.1.4",
+    "sirv": "^2.0.4"
   },
   "peerDependencies": {
     "nuxt": "^4.0.0"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.15",
-    "@nuxt/devtools": "0.5.0",
-    "@nuxt/devtools-ui-kit": "0.5.0",
-    "@nuxt/eslint-config": "^0.1.1",
-    "@nuxt/module-builder": "^0.3.1",
-    "@nuxt/schema": "^3.5.1",
-    "@nuxt/test-utils": "^3.5.1",
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "changelogen": "^0.5.1",
-    "concurrently": "^8.0.1",
+    "@iconify-json/carbon": "^1.2.15",
+    "@nuxt/devtools": "3.1.1",
+    "@nuxt/devtools-ui-kit": "3.1.1",
+    "@nuxt/eslint-config": "^1.12.1",
+    "@nuxt/module-builder": "^1.0.2",
+    "@nuxt/schema": "^4.2.2",
+    "@nuxt/test-utils": "^3.21.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "changelogen": "^0.5.7",
+    "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
-    "eslint": "^8.41.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-sonarjs": "^0.19.0",
     "eslint-plugin-unicorn": "^47.0.0",
     "nuxt": "^4.2.2",
-    "vitest": "^0.31.1"
+    "vitest": "^0.31.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zadigetvoltaire/nuxt-gtm.git"
+    "url": "https://github.com/firstvetcom/nuxt-gtm.git"
   },
   "keywords": [
     "nuxt",
-    "nuxt3",
+    "nuxt4",
     "module",
     "nuxt-module",
     "gtm",
@@ -70,11 +68,7 @@
     "googletagmanager",
     "open-source"
   ],
-  "author": "Zadig&Voltaire",
-  "bugs": {
-    "url": "https://github.com/zadigetvoltaire/nuxt-gtm/issues"
-  },
-  "homepage": "https://github.com/zadigetvoltaire/nuxt-gtm#readme",
+  "homepage": "https://github.com/firstvetcom/nuxt-gtm#readme",
   "changelog": {
     "repo": {
       "provider": "github"
