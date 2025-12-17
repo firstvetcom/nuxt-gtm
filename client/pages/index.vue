@@ -18,13 +18,7 @@ const moduleOptions = nuxtConfig?.runtimeConfig.public.gtm
     </span>
 
     <div class="w-full bg-green opacity-50 h-0.5 my-2" />
-
-    <ModuleAuthorNote />
-
-    <div
-      v-if="client"
-      class="flex flex-col gap-2 h-full"
-    >
+    <div v-if="client" class="flex flex-col gap-2 h-full">
       <div class="flex-1">
         <OptionTable v-if="moduleOptions" :options="moduleOptions" class="my-2" />
 
@@ -38,11 +32,7 @@ const moduleOptions = nuxtConfig?.runtimeConfig.public.gtm
       </div>
 
       <div>
-        <NButton
-          n="green"
-          class="mt-2"
-          @click="client?.host.closeDevTools()"
-        >
+        <NButton n="green" class="mt-2" @click="client?.host.closeDevTools()">
           Close DevTools
         </NButton>
       </div>

@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.2
+- Update missed copyright mentions
+- Made package publically available
+
+## v1.0.1
+- Fork by [Firstvet](https://firstvet.com)
+- Update copyright
+- Update to Nuxt4
 
 ## v0.0.14
 

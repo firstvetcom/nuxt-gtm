@@ -28,7 +28,7 @@ declare module '@nuxt/schema' {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: '@zadigetvoltaire/nuxt-gtm',
+    name: '@firstvetcom/nuxt-gtm',
     configKey: 'gtm',
     compatibility: {
       nuxt: '^4.0.0'
@@ -38,7 +38,7 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {
     devtools: true
   },
-  setup (options, nuxt) {
+  setup(options, nuxt) {
     const resolver = createResolver(import.meta.url)
 
     const moduleOptions: ModuleOptions = defu(nuxt.options.runtimeConfig.public.gtm, options)

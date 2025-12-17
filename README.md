@@ -1,21 +1,15 @@
-<div align="center" style="background-color: white;">
-	<br>
-	<a href="https://zadig-et-voltaire.com/">
-		<img src="https://design-system.zadig-et-voltaire.com/logos/logo.svg" width="400" height="100" alt="Click to see the source">
-	</a>
-	<br>
-</div>
-
 # Nuxt GTM
+
+This is a fork of the package developped by [Zadig et Voltaire](https://github.com/zadigetvoltaire/nuxt-gtm) and is provided as is as per the [MIT license]()
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-> Nuxt Google Tag Manager module integrated with the [Nuxt Devtools](https://github.com/nuxt/devtools) for Nuxt 3.
+> Nuxt Google Tag Manager module integrated with the [Nuxt Devtools](https://github.com/nuxt/devtools) for Nuxt 4.
 >
-> This library is an Nuxt 3 module wrapper of the [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm) plugin
+> This library is an Nuxt 4 module wrapper of the [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm) plugin
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 
